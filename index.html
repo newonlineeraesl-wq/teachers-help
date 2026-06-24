@@ -1,37 +1,200 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teacher's Help | Financial Freedom 2026</title>
+    <title>Teacher's Help | 2026 Passive Income Blueprint</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://unpkg.com/lucide@latest"></script>
     <style>
-        body { background-color: #09192a; color: #ffffff; font-family: sans-serif; }
+        body { background-color: #09192a; color: #fff; }
+        .glass { background: rgba(15, 30, 50, 0.6); backdrop-filter: blur(12px); border: 1px solid rgba(212, 175, 55, 0.3); }
+        .border-gold { border-color: #d4af37; }
         .text-neon { color: #1be3ea; }
-        .bg-cta { background-color: #cf2222; }
+        .text-gold { color: #d4af37; }
+        .gradient-text { background: linear-gradient(90deg, #1be3ea, #d4af37, #3b82f6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
     </style>
 </head>
-<body>
-    <nav class="p-6 flex justify-between items-center border-b border-gray-700">
-        <img src="images/LogoTH.jpg" alt="Teacher's Help Logo" class="h-12">
-        <div class="space-x-6">
-            <a href="index.html" class="hover:text-neon">Home</a>
-            <a href="blog.html" class="hover:text-neon">Blog</a>
+<body class="font-sans antialiased">
+
+    <!-- Nav -->
+    <nav class="fixed w-full z-50 glass border-b border-gold p-4">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <img src="images/LogoTH.jpg" alt="Logo" class="h-10 w-auto rounded-lg">
+            <div class="hidden md:flex space-x-8 font-bold text-neon">
+                <a href="#home" class="hover:text-gold transition">Home</a>
+                <a href="#blueprint" class="hover:text-gold transition">Blueprint</a>
+                <a href="#about" class="hover:text-gold transition">About</a>
+                <a href="#services" class="hover:text-gold transition">Services</a>
+                <a href="#blog" class="hover:text-gold transition">Blog</a>
+            </div>
         </div>
     </nav>
 
-    <header class="text-center py-20 px-4">
-        <h1 class="text-5xl font-bold mb-6">Stop Trading Time for Money.<br><span class="text-neon">Build Your 2026 Passive Income System.</span></h1>
-        <p class="text-xl mb-8 max-w-2xl mx-auto">Join the ecosystem where expert education, certification, and monetization meet. Transform your financial future with proven strategies designed for the digital age.</p>
-        <a href="https://gumroad.com/your-product" class="bg-cta px-8 py-4 rounded-lg font-bold text-lg hover:opacity-90">Get The 2026 Blueprint</a>
-    </header>
-
-    <section class="py-16 px-6 max-w-4xl mx-auto">
-        <h2 class="text-3xl font-bold mb-8 text-center text-neon">From 9-to-5 Grind to Global Financial Freedom</h2>
-        <p class="text-center text-lg">I’m Mike Thompson. My mission is to simplify wealth creation. I’ve helped hundreds of individuals move from financial uncertainty to building self-sustaining income streams. Through transparent mentorship and real-world tools, I provide the roadmap to your independence.</p>
+    <!-- Hero -->
+    <section id="home" class="pt-40 pb-20 px-4 text-center">
+        <h1 class="text-5xl md:text-7xl font-extrabold mb-6 gradient-text">Helping You Build Passive Income</h1>
+        <p class="text-xl md:text-2xl text-white max-w-3xl mx-auto mb-10">Transform your financial future with our holistic approach to passive income and stability. Achieve financial independence through our expert solutions.</p>
+        <a href="#blueprint" class="border-2 border-gold text-gold px-10 py-4 rounded-full font-bold hover:bg-gold hover:text-black transition">Get Started Today</a>
     </section>
 
-    <script>lucide.createIcons();</script>
+    <!-- Blueprint Section -->
+    <section id="blueprint" class="py-20 px-4 max-w-6xl mx-auto">
+        <h2 class="text-4xl font-bold text-center mb-12 text-gold">The 2026 Digital Blueprint</h2>
+        <div class="glass p-8 rounded-2xl border-2 border-gold mb-12 text-center">
+            <img src="images/all.png" alt="Blueprint" class="w-full max-w-2xl mx-auto rounded-xl mb-8 shadow-2xl border border-neon">
+            <a href="#" class="inline-block bg-neon text-black font-bold px-8 py-4 rounded-full mb-4 hover:scale-105 transition">Get the 2026 Blueprint</a>
+            <p class="text-gold italic">Includes FREE 35-DAY IMPLEMENTATION ROADMAP</p>
+        </div>
+
+        <div class="glass p-8 rounded-xl border border-gold">
+            <h3 class="text-neon text-2xl font-bold mb-6">Curriculum (8 Modules)</h3>
+            <ul class="text-white space-y-3 list-decimal ml-6">
+                <li>The New Reality of 2026 (Foundation & Mindset)</li>
+                <li>Top 3 Faceless Income Streams</li>
+                <li>The AI Advantage: Prompt Engineering</li>
+                <li>The Automated Sales Machine</li>
+                <li>Scaling to 2027</li>
+                <li>Troubleshooting: Case Study I</li>
+                <li>The Anti-Failure Framework</li>
+                <li>The Implementation Roadmap</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Mission & Projects -->
+    <section id="mission" class="py-20 px-4 max-w-6xl mx-auto">
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="p-8 glass rounded-2xl border-2 border-gold hover:border-neon transition">
+                <h3 class="text-neon font-bold mb-4 text-2xl">01 💡 Our mission</h3>
+                <p class="text-white leading-relaxed">To make financial freedom accessible to everyone—anywhere in the world. Our mission is to educate, inspire, and empower individuals through transparent, practical, and innovative solutions that promote passive income, professional growth, and financial confidence.</p>
+            </div>
+            <div class="p-8 glass rounded-2xl border-2 border-gold hover:border-neon transition">
+                <h3 class="text-neon font-bold mb-4 text-2xl">02 ✨ Original projects</h3>
+                <p class="text-white leading-relaxed">“From Learning to Earning” – The Teacher’s Help Initiative. Our flagship project integrates education, certification, and monetization into one seamless pathway that helps users move from learning new skills to applying them for real-world financial gain.</p>
+            </div>
+            <div class="p-8 glass rounded-2xl border-2 border-gold hover:border-neon transition">
+                <h3 class="text-neon font-bold mb-4 text-2xl">03 🤝 Networking</h3>
+                <p class="text-white leading-relaxed">Building a Global Community of Financial Innovators. Through strategic networking and partnerships, we connect entrepreneurs, educators, and creators to accelerate financial growth and create real wealth.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Mike -->
+    <section id="about" class="py-20 px-4 max-w-4xl mx-auto glass rounded-2xl border border-gold">
+        <h2 class="text-4xl font-bold text-center mb-8 text-gold">About Mike Thompson</h2>
+        <div class="flex flex-col md:flex-row items-center gap-8">
+            <img src="images/Mike world business forum.png" class="w-48 h-48 rounded-full border-4 border-neon" alt="Mike Thompson">
+            <div class="text-white space-y-4">
+                <p>I help people create passive income streams and achieve financial freedom through innovative opportunities and practical strategies.</p>
+                <p>"In the 21st century, passive income isn’t just a luxury—it’s a necessity. In a world of economic uncertainty, creating income streams that work for you ensures financial security, freedom, and the ability to focus on what truly matters."</p>
+                <p class="font-bold text-gold">Success isn’t about working harder - it’s about working smarter!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="py-20 px-4 max-w-6xl mx-auto">
+        <h2 class="text-4xl font-bold text-center mb-16 text-gold">Our Services</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="p-8 glass rounded-2xl border-2 border-gold hover:border-neon transition">
+                <h4 class="text-neon font-bold mb-4">Affiliate Marketing</h4>
+                <p class="text-sm mb-4">Learn how to generate passive income by promoting products and services.</p>
+            </div>
+            <div class="p-8 glass rounded-2xl border-2 border-gold hover:border-neon transition">
+                <h4 class="text-neon font-bold mb-4">Passive Income Library</h4>
+                <p class="text-sm mb-4">Discover proven methods from digital products and blogging.</p>
+            </div>
+            <div class="p-8 glass rounded-2xl border-2 border-gold hover:border-neon transition">
+                <h4 class="text-neon font-bold mb-4">Course Creation</h4>
+                <p class="text-sm mb-4">Turn knowledge into profitable courses with certification options.</p>
+            </div>
+            <div class="p-8 glass rounded-2xl border-2 border-gold hover:border-neon transition">
+                <h4 class="text-neon font-bold mb-4">Remote Job Opportunities</h4>
+                <p class="text-sm mb-4">Find legitimate remote jobs and side hustles that match your skills.</p>
+            </div>
+            <div class="p-8 glass rounded-2xl border-2 border-gold hover:border-neon transition">
+                <h4 class="text-neon font-bold mb-4">Digital Product Creation</h4>
+                <p class="text-sm mb-4">Create and sell eBooks, templates, and printables for profit.</p>
+            </div>
+            <div class="p-8 glass rounded-2xl border-2 border-gold hover:border-neon transition">
+                <h4 class="text-neon font-bold mb-4">Social Monetization</h4>
+                <p class="text-sm mb-4">Grow your audience and turn content into cash on YouTube/blogs.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Member Success -->
+    <section class="py-20 px-4 bg-slate-900/50 border-y border-gold">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-16 text-gold">Member Success</h2>
+            <div class="space-y-12">
+                <div class="glass p-8 rounded-2xl border border-neon flex flex-col md:flex-row gap-6 items-start">
+                    <img src="images/David.png" class="w-24 h-24 rounded-full border-2 border-gold shrink-0" alt="David R.">
+                    <div>
+                        <h4 class="text-gold font-bold text-xl mb-2">David R. (Certified Professional)</h4>
+                        <p class="text-white mb-4">"Getting certified through your program gave me the skills and confidence to create a new stream of passive income. I’ve landed opportunities I never thought possible, and I’m now on track to exceed my financial goals. Your support made it all happen!"</p>
+                        <p class="text-white italic">"I always thought passive income was out of reach, but they showed me how to start small and grow. By combining affiliate marketing and the part-time job opportunities they introduced, I now have an income stream that supplements my main job. It’s made a huge difference in my life."</p>
+                    </div>
+                </div>
+                <div class="glass p-8 rounded-2xl border border-neon flex flex-col md:flex-row gap-6 items-start">
+                    <img src="images/Sarah.png" class="w-24 h-24 rounded-full border-2 border-gold shrink-0" alt="Sarah J.">
+                    <div>
+                        <h4 class="text-gold font-bold text-xl mb-2">Sarah J. (Course Creator)</h4>
+                        <p class="text-white mb-4">"I always wanted to share my knowledge but didn’t know where to start. Your team made course creation simple and approachable, from planning to execution. Now, I have a steady stream of income from my online courses, and I couldn’t be more grateful!"</p>
+                        <p class="text-white italic">"I never thought I could create an online course, but their step-by-step support and certification program made it possible. Now, I have a course that earns me income every month while I focus on my other goals. This is hands-down the smartest investment I’ve made in myself."</p>
+                    </div>
+                </div>
+                <div class="glass p-8 rounded-2xl border border-neon flex flex-col md:flex-row gap-6 items-start">
+                    <img src="images/Emily S..png" class="w-24 h-24 rounded-full border-2 border-gold shrink-0" alt="Emily S.">
+                    <div>
+                        <h4 class="text-gold font-bold text-xl mb-2">Emily S. (Affiliate Marketer)</h4>
+                        <p class="text-white mb-4">"Thanks to your guidance, I was able to launch my affiliate marketing business and start generating passive income within just three months. The step-by-step support and resources provided were invaluable. Now, I’m earning while focusing on the things I love, and it’s changed my life!"</p>
+                        <p class="text-white italic">"Working with this team completely changed my financial outlook. I learned how to set up affiliate marketing streams, and in six months, had a steady passive income. Their guidance was practical and easy to follow—I recommend for anyone looking to take control of their finances."</p>
+                    </div>
+                </div>
+                <div class="glass p-8 rounded-2xl border border-neon flex flex-col md:flex-row gap-6 items-start">
+                    <img src="images/Michael T..png" class="w-24 h-24 rounded-full border-2 border-gold shrink-0" alt="Michael T.">
+                    <div>
+                        <h4 class="text-gold font-bold text-xl mb-2">Michael T. (Job Seeker to Entrepreneur)</h4>
+                        <p class="text-white mb-4">"I was stuck in a 9-to-5 grind until I discovered your services. You helped me transition into a flexible career with passive income streams. The personalized approach and tools you provided were game-changers. I’m now living the financial freedom I’ve always dreamed of."</p>
+                        <p class="text-white italic">"Working with your team completely transformed my mindset about money and work. I’ve learned how to combine affiliate marketing, digital products, and remote opportunities to create a steady income that supports my lifestyle. I’m finally living on my own terms—and it feels incredible!"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog" class="py-20 px-4 max-w-6xl mx-auto">
+        <h2 class="text-4xl font-bold text-center mb-16 text-gold">Latest Strategies (Blog)</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="glass p-6 rounded-xl border border-gold hover:border-neon transition">
+                <h4 class="text-neon font-bold mb-2">Passive Income in 2026</h4>
+                <p class="text-sm text-gray-300 mb-4">How the landscape has shifted and why automation is key.</p>
+                <a href="#" class="text-gold font-bold underline">Read More</a>
+            </div>
+            <div class="glass p-6 rounded-xl border border-gold hover:border-neon transition">
+                <h4 class="text-neon font-bold mb-2">The AI Advantage</h4>
+                <p class="text-sm text-gray-300 mb-4">Leveraging tools to scale your business while you sleep.</p>
+                <a href="#" class="text-gold font-bold underline">Read More</a>
+            </div>
+            <div class="glass p-6 rounded-xl border border-gold hover:border-neon transition">
+                <h4 class="text-neon font-bold mb-2">Affiliate Success</h4>
+                <p class="text-sm text-gray-300 mb-4">Strategies for maximizing your commissions this year.</p>
+                <a href="#" class="text-gold font-bold underline">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 border-t border-gold text-center">
+        <div class="flex justify-center space-x-8 mb-6">
+            <a href="https://www.instagram.com/teachershelptips/" class="text-neon hover:text-gold transition">Instagram</a>
+            <a href="https://www.pinterest.com/TeachersHelpOnlineEra/" class="text-neon hover:text-gold transition">Pinterest</a>
+        </div>
+        <p class="text-gold text-sm italic max-w-xl mx-auto px-4">Affiliate Disclosure: Some links are affiliate links. If you make a purchase, I may earn a commission at no cost to you. I only recommend what I truly believe in.</p>
+        <p class="text-gray-600 mt-4 text-xs">© 2026 Teacher's Help. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
