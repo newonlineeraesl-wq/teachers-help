@@ -1,0 +1,6 @@
+# Teacher's Help Website
+
+1. **GitHub Setup:** Create a new repository and upload these files. Ensure your images are in the `images/` folder.
+2. **Netlify:** Connect your GitHub repo to Netlify.
+3. **Decap CMS:** Access your admin panel at `/admin` to start writing blog posts.
+4. **Identity:** Enable 'Identity' in Netlify to manage your admin login.
